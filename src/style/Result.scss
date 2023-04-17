@@ -1,0 +1,21 @@
+.result-container {
+  font-size: 70px;
+  font-weight: 700;
+  font-style: italic;
+
+  &__result {
+  color: var(--purple);
+
+
+    &--static {
+      display: inline;
+      color: var(--off-black);
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .result-container {
+    font-size: 50px;
+  }
+}
